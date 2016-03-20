@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+#searchbar ul{
+	padding:0px;
+	margin:0px;
+	list-style: none
+}
+#searchbar ul li{
+	float:left;
+	width: 190px;
+	line-height: 30px;
+	text-align: center;
+	border: solid #cde2f5;
+	border-width:1px 1px 1px 1px;
+}
+#searchbar ul li label{
+	display:block;
+	margin:0 4px 0 4px;
+	width:50px;
+	overflow: hidden;  
+   	white-space: nowrap; 
+   	float:left;
+   	text-align:center;
+}

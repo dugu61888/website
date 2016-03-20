@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.medicine.info.dao.ProductDao" >
+  <resultMap id="productResult" type="com.medicine.info.bean.Product" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="intronduce" property="intronduce" jdbcType="VARCHAR"/>
+    <result column="location" property="location" jdbcType="VARCHAR"/>
+    <result column="updatetime" property="updatetime" jdbcType="TIMESTAMP"/>
+  </resultMap>
+  <select id="getProductById" resultMap="productResult" parameterType="java.lang.Integer" >
+    select * from product where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="getProductByName" resultMap="productResult" parameterType="java.lang.String" >
+    select * from product 
+       <where>
+  		<if test="name!=null">
+  			and name like "%"#{name}"%"
+  		</if>
+  	</where>
+  </select>
+  <select id="getTotal" resultType="Integer">
+  	select count(1) from product
+  	<where>
+  		<if test="product!=null">
+  			and name like "%"#{product.name}"%"
+  		</if>
+  	</where>
+  </select>
+  <select id="getList" resultMap="productResult">
+  	select * from product
+  	<where>
+  		<if test="params.company_name!=null">
+  			and name like "%"#{params.name}"%"
+  		</if>
+  	</where>
+  	order by id asc
+  	<if test="pageSize > 0">
+  		limit #{pageStart},#{pageSize}
+  	</if>
+  </select>
+   <insert id="insertProduct">
+    insert into product (name,intronduce,location)
+    values (#{product.name,jdbcType=VARCHAR}, 
+      		#{product.intronduc,jdbcType=VARCHAR},
+      		#{product.location,jdbcType=VARCHAR}
+      		)
+  </insert>
+  <delete id="deleteProduct" parameterType="java.lang.Integer" >
+    delete from product
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <update id="updateProduct">
+    update product
+    set name = #{product.name,jdbcType=VARCHAR},
+         intronduce = #{product.intronduce,jdbcType=VARCHAR},
+     	location = #{product.location,jdbcType=VARCHAR}
+    where id = #{product.id,jdbcType=INTEGER} 
+  </update>
+</mapper>

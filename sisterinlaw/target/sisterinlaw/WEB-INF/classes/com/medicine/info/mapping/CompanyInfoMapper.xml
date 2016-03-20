@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.medicine.info.dao.CompanyInfoDao" >
+  <resultMap id="companyInfoResult" type="com.medicine.info.bean.CompanyInfo" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="company_name" property="company_name" jdbcType="VARCHAR" />
+    <result column="describtion" property="describtion" jdbcType="VARCHAR"/>
+    <result column="updatetime" property="updatetime" jdbcType="TIMESTAMP"/>
+  </resultMap>
+  <select id="getCompanyInfoById" resultMap="companyInfoResult" parameterType="java.lang.Integer" >
+    select * from company_info where id = #{id,jdbcType=INTEGER}
+  </select>
+  
+  <select id="getCompanyInfoByName" resultMap="companyInfoResult" parameterType="java.lang.String" >
+    select * from company_info 
+       <where>
+  		<if test="name!=null">
+  			and company_name like "%"#{name}"%"
+  		</if>
+  	</where>
+  </select>
+  
+  <select id="getTotal" resultType="Integer">
+  	select count(1) from company_info
+  	<where>
+  		<if test="companyInfo!=null">
+  			and company_name like "%"#{companyInfo.company_name}"%"
+  		</if>
+  	</where>
+  </select>
+  <select id="getList" resultMap="companyInfoResult">
+  	select * from company_info
+  	<where>
+  		<if test="params.company_name!=null">
+  			and company_name like "%"#{params.company_name}"%"
+  		</if>
+  	</where>
+  	order by id asc
+  	<if test="pageSize > 0">
+  		limit #{pageStart},#{pageSize}
+  	</if>
+  </select>
+   <insert id="insertCompanyInfo">
+    insert into company_info (company_name,describtion)
+    values (#{companyInfo.company_name,jdbcType=VARCHAR}, 
+      		#{companyInfo.describtion,jdbcType=VARCHAR})
+  </insert>
+  <delete id="deleteCompanyInfo" parameterType="java.lang.Integer" >
+    delete from company_info
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <update id="updateCompanyInfo">
+    update company_info
+    set company_name = #{companyInfo.company_name,jdbcType=VARCHAR},
+     	describtion= #{companyInfo.describtion,jdbcType=VARCHAR}
+    where id = #{companyInfo.id,jdbcType=INTEGER}
+  </update>
+</mapper>
