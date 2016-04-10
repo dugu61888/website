@@ -12,18 +12,6 @@
 					content="format=html5;url=http://m.nongminw.cn/index.php?moduleid=4&amp;username=yirukeji001">
 					<link rel="stylesheet" type="text/css" href="../css/common.css">
 						<link rel="stylesheet" type="text/css" href="../css/style.css">
-							
-							<style type="text/css">  
-html{height:100%}  
-body{height:100%;margin:0px;padding:0px}  
-#container{height:100%}  
-</style>  
-<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=32xYoZTW90PLoNaxGwnePZyo">
-//v2.0版本的引用方式：src="http://api.map.baidu.com/api?v=2.0&ak=您的密钥"
-//v1.4版本及以前版本的引用方式：src="http://api.map.baidu.com/api?v=1.4&key=32xYoZTW90PLoNaxGwnePZyo&callback=initialize"
-</script>
-							
-							
 							<script type="text/javascript">        window.onerror = function () { return true; }</script>
 							<script type="text/javascript" src="../js/lang.js"></script>
 							<script type="text/javascript" src="../js/config.js"></script>
@@ -46,7 +34,6 @@ body{height:100%;margin:0px;padding:0px}
 			<div>
 				<h1>公司名称</h1>
 				<h4>简短介绍</h4>
-				<h4 ><a href="subintrol" style="text-decoration:none;">纳豆系类</a></h4>
 			</div>
 		</div>
 	</div>
@@ -97,7 +84,7 @@ body{height:100%;margin:0px;padding:0px}
 
 							<div id="wraptbs"></div>
 </div>
-							<!-- <div class="pages">
+							<div class="pages">
 								<label title="共5条"> 第<em>1</em>页/共<span>1</span>页
 								</label>&nbsp;&nbsp;<a
 									href="http://yirukeji001.nongminw.cn/sell/page-1.shtml">&nbsp;首页&nbsp;</a>
@@ -109,59 +96,13 @@ body{height:100%;margin:0px;padding:0px}
 									type="hidden"><a
 										href="http://yirukeji001.nongminw.cn/sell/page-1.shtml">&nbsp;上一页&nbsp;</a>
 										<a href="http://yirukeji001.nongminw.cn/sell/page-1.shtml">&nbsp;尾页&nbsp;</a>
-										<cite> </cite> <input class="pages_inp" id="destoon_pageno" value="1" onkeydown="if(event.keyCode==13 &amp;&amp;this.value) {window.location.href='http://yirukeji001.nongminw.cn/sell/page-{destoon_page}.shtml'.replace(/\{destoon_page\}/,this.value);return false;}"
-										type="text">
+										<cite> </cite> <!--<input class="pages_inp" id="destoon_pageno" value="1" onkeydown="if(event.keyCode==13 &amp;&amp;this.value) {window.location.href='http://yirukeji001.nongminw.cn/sell/page-{destoon_page}.shtml'.replace(/\{destoon_page\}/,this.value);return false;}"
+										type="text"> -->
 										<input class="pages_btn" value="GO"
 											onclick="if(Dd('destoon_pageno').value>0)window.location.href='http://yirukeji001.nongminw.cn/sell/page-{destoon_page}.shtml'.replace(/\{destoon_page\}/, Dd('destoon_pageno').value);"
 											type="button">
-							</div> -->
-						</div>
-						
-						
-							<div class="main_head">
-							<div>
-								<strong>地图</strong>
 							</div>
 						</div>
-						
-						
-						
-
-						
-							
-						
-						
-						
-						<div class="main_body">
-<div id="elite" style="height:460px;overflow:hidden;">
-
-							<div id="container"></div>
-							<script type="text/javascript"> 
-	var map = new BMap.Map("container");          // 创建地图实例  
-	var point = new BMap.Point(113.4322970000, 23.1721020000);  // 创建点坐标  
-	map.centerAndZoom(point, 15);  
-	// 初始化地图，设置中心点坐标和地图级别  
-</script> 
-</div>
-							
-						</div>
-						
-						
-						
-								
-						
-						
-						
-						<div class="main_body" style="display:none">
-<div id="elite" style="height:180px;overflow:hidden;">
-
-							<div id="wraptbs"></div>
-</div>
-							
-						</div>
-						
-						
-						
 					</td>
 				</tr>
 			</tbody>
@@ -177,7 +118,7 @@ body{height:100%;margin:0px;padding:0px}
 	<script
 							type="text/javascript">  window.onload = function () { new dmarquee(180, 15, 2000, 'elite'); } /* FIX IE6 */
 	</script>
-</body> 
+</body> -->
 
 
 

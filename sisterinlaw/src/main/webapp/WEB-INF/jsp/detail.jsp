@@ -33,7 +33,7 @@
 <div class="m">
 <div class="pos" id="pos">
  
-<span id="position_fix"><a href="index.htm">返回首页</a> </span>
+<span id="position_fix"><a href="index">返回首页</a> </span>
 </div>
 </div>
 <div class="m">

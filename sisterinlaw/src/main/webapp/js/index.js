@@ -21,8 +21,8 @@ var  urls='http://localhost:8080/sisterinlaw/';
                 for (var j = 0; j < 5 && i < data.length; j++,i++) {
                 	
                 	
-                    str += '<td valign="top" width="20%" height="180"><div class="thumb" onmouseover="this.className=\'thumb thumb_on\';" onmouseout="this.className=\'thumb\';"><a href="javascript:void(0)" onclick="toDetail('+data[i].id+')">';
-                   str +='<img src="'+ urls+ data[i].location + '" alt="' + data[i].name + '" width="100" height="100"></a><div><a href="javascript:void(0)" onclick="toDetail('+data[i].id+')" title="' + data[i].name + '">' + data[i].name + '</a></div> </div></td>';
+                    str += '<td valign="top" width="20%" height="180"><div class="thumb" onmouseover="this.className=\'thumb thumb_on\';" onmouseout="this.className=\'thumb\';"><a  target="_blank"  onclick="toDetail('+data[i].id+')">';
+                   str +='<img src="'+ urls+ data[i].location + '" alt="' + data[i].name + '" width="100" height="100"></a><div><a target="_blank"  onclick="toDetail('+data[i].id+')" title="' + data[i].name + '">' + data[i].name + '</a></div> </div></td>';
 
                     if (i == data.length - 1) {//最后一个   一个的情况要再调
                         for (var k = 0; k < (data.length%5); k++) {
@@ -46,6 +46,7 @@ var  urls='http://localhost:8080/sisterinlaw/';
 
 
 function toDetail(pid) {
-    window.location.href = 'detail?pid='+pid;
+    var url = 'detail?pid='+pid;
+    window.open(url,'_blank');
 }
 

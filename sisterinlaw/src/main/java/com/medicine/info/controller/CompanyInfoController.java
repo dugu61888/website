@@ -6,6 +6,7 @@ import java.util.Map;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,8 +16,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.alibaba.fastjson.JSON;
 import com.medicine.info.bean.CompanyInfo;
 import com.medicine.info.bean.Product;
+import com.medicine.info.bean.Questions;
 import com.medicine.info.service.CompanyService;
 import com.medicine.info.service.ProductService;
+import com.medicine.info.service.QuestionsService;
 
 
 @Controller
@@ -27,6 +30,9 @@ public class CompanyInfoController {
 	private CompanyService companyService;
 	@Resource
 	private ProductService productService;
+	
+	@Resource
+    private QuestionsService questionService;
 	
 	@RequestMapping("/add")
 	public String addCompany(HttpServletRequest request,Model model){
@@ -45,9 +51,15 @@ public class CompanyInfoController {
 		return "/user/success";
 	}
 	@RequestMapping("/index")
-	public String list(HttpServletRequest request,Model model){
+	public String subintrol(HttpServletRequest request,Model model){
 		System.out.println("begin!!!!");
 		return "/index";
+	}
+	
+	@RequestMapping("/subintrol")
+	public String list(HttpServletRequest request,Model model){
+		System.out.println("subintrol!!!!");
+		return "/subintrol";
 	}
 	
 	@RequestMapping("/detail")
@@ -79,7 +91,27 @@ public class CompanyInfoController {
 			jsonText=JSON.toJSONString(product);
 			System.out.println("toJSONString()方法：jsonText=="+jsonText);
 		}
-		
+
+		return jsonText;
+	}
+	
+	@RequestMapping(value="/getQuestionsJson",produces = "text/html;charset=UTF-8")
+	@ResponseBody
+	public String listQuestions(HttpServletRequest request,HttpServletResponse response){
+		Map<String, String> params=new HashMap<>();
+		String paraPid=(String) request.getParameter("pid");
+		String jsonText="";
+		response.setCharacterEncoding("UTF-8"); 
+		if(paraPid==null||"".equals(paraPid)){
+			List<Questions> questions=questionService.getList(0, 0, params);
+			jsonText = JSON.toJSONString(questions, true);  
+			System.out.println("list2Json()方法：questions=="+jsonText);
+		}else{
+			Questions question=questionService.getQuestionById(Integer.valueOf(paraPid));
+			jsonText=JSON.toJSONString(question);
+			System.out.println("toJSONString()方法：question=="+jsonText);
+		}
+
 		return jsonText;
 	}
 	
