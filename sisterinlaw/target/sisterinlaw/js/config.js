@@ -1,0 +1,1 @@
+var DTPath = "http://www.nongminw.cn/";var SKPath = "http://www.nongminw.cn/skin/default/";var MEPath = "http://www.nongminw.cn/member/";var DTEditor = "fckeditor";var CKDomain = ".nongminw.cn";var CKPath = "/";var CKPrex = "cim_";

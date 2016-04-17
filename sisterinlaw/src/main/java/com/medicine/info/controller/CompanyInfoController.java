@@ -23,7 +23,7 @@ import com.medicine.info.service.QuestionsService;
 
 
 @Controller
-@RequestMapping("/company")
+@RequestMapping("/")
 public class CompanyInfoController {
 	
 	@Resource
@@ -53,7 +53,7 @@ public class CompanyInfoController {
 	@RequestMapping("/index")
 	public String subintrol(HttpServletRequest request,Model model){
 		System.out.println("begin!!!!");
-		return "/index";
+		return "../../index";
 	}
 	
 	@RequestMapping("/subintrol")

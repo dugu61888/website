@@ -3,7 +3,7 @@
 <mapper namespace="com.medicine.info.dao.ProductDao" >
   <resultMap id="productResult" type="com.medicine.info.bean.Product" >
     <id column="id" property="id" jdbcType="INTEGER" />
-    <result column="name" property="company_name" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
     <result column="intronduce" property="intronduce" jdbcType="VARCHAR"/>
     <result column="location" property="location" jdbcType="VARCHAR"/>
     <result column="updatetime" property="updatetime" jdbcType="TIMESTAMP"/>

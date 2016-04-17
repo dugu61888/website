@@ -9,9 +9,9 @@
 		<meta name="generator" content="DESTOON B2B - www.destoon.com">
 			<meta name="template" content="homepage">
 				<meta http-equiv="mobile-agent"
-					content="format=html5;url=http://m.nongminw.cn/index.php?moduleid=4&amp;username=yirukeji001">
-					<link rel="stylesheet" type="text/css" href="../css/common.css">
-						<link rel="stylesheet" type="text/css" href="../css/style.css">
+					content="format=html5;url=http://www.huirongtang.com/index">
+					<link rel="stylesheet" type="text/css" href="./css/common.css">
+						<link rel="stylesheet" type="text/css" href="./css/style.css">
 							
 							<style type="text/css">  
 html{height:100%}  
@@ -25,16 +25,16 @@ body{height:100%;margin:0px;padding:0px}
 							
 							
 							<script type="text/javascript">        window.onerror = function () { return true; }</script>
-							<script type="text/javascript" src="../js/lang.js"></script>
-							<script type="text/javascript" src="../js/config.js"></script>
-							<script type="text/javascript" src="../js/jquery_002.js"></script>
-							<script type="text/javascript" src="../js/common.js"></script>
-							<script type="text/javascript" src="../js/page.js"></script>
-							<script type="text/javascript" src="../js/homepage.js"></script>
-							<script type="text/javascript" src="../js/jquery.js"></script>
-							<script type="text/javascript" src="../js/index.js"></script>
+							<script type="text/javascript" src="./js/lang.js"></script>
+							<script type="text/javascript" src="./js/config.js"></script>
+							<script type="text/javascript" src="./js/jquery_002.js"></script>
+							<script type="text/javascript" src="./js/common.js"></script>
+							<script type="text/javascript" src="./js/page.js"></script>
+							<script type="text/javascript" src="./js/homepage.js"></script>
+							<script type="text/javascript" src="./js/jquery.js"></script>
+							<script type="text/javascript" src="./js/index.js"></script>
 							<script type="text/javascript">
-        GoMobile('http://m.nongminw.cn/index.php?moduleid=4&username=yirukeji001');
+        GoMobile('http://www.huirongtang.com/index');
     </script>
 </head>
 
@@ -55,7 +55,7 @@ body{height:100%;margin:0px;padding:0px}
 			<div id="slide_banner_fix"
 				style="width: 960px; height: 200px; background: #FAFAFA; overflow: hidden;">
 				<a href="javascript:void(0);" target="" id="slide_banner_url"> <img
-					style="display: inline;" src="../pic/banner.png"
+					style="display: inline;" src="./pic/banner.png"
 					id="slide_banner_img" width="960" height="800"></a>
 				<div
 					style="width: 952px; height: 20px; overflow: hidden; z-index: 3; position: relative; margin-top: -20px; padding: 0 4px 0 4px; text-align: right;">
@@ -73,7 +73,7 @@ body{height:100%;margin:0px;padding:0px}
 						<div class="dsn" id="pos_show">
 							您当前的位置111：<a href="http://yirukeji001.nongminw.cn/">首页</a> &#187;
 							欢迎光临
-						</div> <script type="text/javascript" src="../js/marquee.js"></script> 
+						</div> <script type="text/javascript" src="./js/marquee.js"></script> 
 						<div class="main_head">
 							<div>
 								<strong>公司介绍</strong>
@@ -97,7 +97,7 @@ body{height:100%;margin:0px;padding:0px}
 						</div>
 						<div class="main_body">
 							<div class="lh18 px13 pd10">
-								<img src="../pic/banner2.png"
+								<img src="./pic/banner2.png"
 									style="height:100px;height:100px;margin: 5px 0 5px 10px; padding: 5px; border: #C0C0C0 1px solid;"
 									align="left" >  
 									<span style="font-size:16px;font-weight:bold">
@@ -116,7 +116,7 @@ body{height:100%;margin:0px;padding:0px}
 						</div>
 						<div class="main_body">
 							<div class="lh18 px13 pd10">
-								<img src="../imgs/banner3.jpg"
+								<img src="./imgs/banner3.jpg"
 									style="height:100px;height:100px;margin: 5px 0 5px 10px; padding: 5px; border: #C0C0C0 1px solid;"
 									align="left" >  
 									<span style="font-size:16px;font-weight:bold;">
