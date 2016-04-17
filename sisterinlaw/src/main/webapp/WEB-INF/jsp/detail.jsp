@@ -8,21 +8,21 @@
 <title>详细信息</title>
 <meta name="keywords" content="关键词"><meta name="description" content=""><meta name="generator" content="DESTOON B2B - www.destoon.com">
 <meta name="template" content="homepage">
-<meta http-equiv="mobile-agent" content="format=html5;url=http://m.nongminw.cn/5-0-109-1.html">
+<!-- <meta http-equiv="mobile-agent" content="format=html5;url=http://m.nongminw.cn/5-0-109-1.html"> -->
 <link rel="canonical" href="http://www.nongminw.cn/sell/201212/17/show109.html">
-<link rel="stylesheet" type="text/css" href="../css/common.css">
-<link rel="stylesheet" type="text/css" href="../css/style.css">
-<script type="text/javascript">    window.onerror = function () { return true; }</script><script type="text/javascript" src="../js/lang.js"></script>
-<script type="text/javascript" src="../js/config.js"></script>
-<script type="text/javascript" src="../js/jquery.js"></script>
-<script type="text/javascript" src="../js/common.js"></script>
-<script type="text/javascript" src="../js/page.js"></script>
-<script type="text/javascript" src="../js/homepage.js"></script>
-<script type="text/javascript" src="../js/jquery_002.js"></script>
-<script type="text/javascript" src="../js/detail.js"></script>
-<script type="text/javascript">
-        GoMobile('http://m.nongminw.cn/5-0-109-1.html');
-</script>
+<link rel="stylesheet" type="text/css" href="./css/common.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<script type="text/javascript">    window.onerror = function () { return true; }</script><script type="text/javascript" src="./js/lang.js"></script>
+<script type="text/javascript" src="./js/config.js"></script>
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+<script type="text/javascript" src="./js/page.js"></script>
+<script type="text/javascript" src="./js/homepage.js"></script>
+<script type="text/javascript" src="./js/jquery_002.js"></script>
+<script type="text/javascript" src="./js/detail.js"></script>
+<!-- <script type="text/javascript">
+       /*  GoMobile('http://m.nongminw.cn/5-0-109-1.html'); */
+</script> -->
 </head>
 
 <body>
@@ -41,8 +41,8 @@
 <tbody><tr>
  
 <td id="split" width="10"></td>
-<td id="main" valign="top"><div class="dsn" id="pos_show">您当前的位置：<a href="http://yirukeji001.nongminw.cn/">首页</a> &#187; <a href="http://yirukeji001.nongminw.cn/sell/">供应产品</a> &#187; 甜味剂</div>
-<div class="main_head"><div><strong id="pname2">甜味剂</strong></div></div>
+<td id="main" valign="top">
+<div class="main_head"><div><strong id="pname2"></strong></div></div>
 <div class="main_body">
 <table align="center" width="100%">
 <tbody><tr>

@@ -7,7 +7,7 @@
 });
 function getDetail(pidstr) {
 
-    var  urls='http://localhost:8080/sisterinlaw/';
+    var  urls='./';
     $.ajax({
         type: "post",
         url: urls+"getProductJson",
@@ -19,9 +19,6 @@ function getDetail(pidstr) {
         	//alert(11)
         	$('#name').html(data.name);
         	$('#pname2').html(data.name);
-        	//$('#brand').html(data.brand);
-        	//$('#guige').html(data.guige);
-        	//$('#price').html(data.price); 
         	$('#mid_pic').attr('src', urls+data.location);
         	$('#detailIntro').html(data.introduce);
         }

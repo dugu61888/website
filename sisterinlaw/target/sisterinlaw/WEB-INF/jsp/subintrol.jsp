@@ -9,12 +9,12 @@
     <meta name="keywords" content="公司名称等关键词">
     <meta name="generator" content="DESTOON B2B - www.destoon.com">
     <meta name="template" content="homepage">
-    <meta http-equiv="mobile-agent" content="format=html5;url=http://www.huirongtang.com/subintrol">
+    <!-- <meta http-equiv="mobile-agent" content="format=html5;url=http://www.huirongtang.com/subintrol"> -->
     <link rel="stylesheet" type="text/css" href="./css/common.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     
     <link href="./css/style_zl.css" type="text/css" rel="stylesheet">
-<link href="./css/pub.css" type="text/css" rel="stylesheet">
+    <link href="./css/pub.css" type="text/css" rel="stylesheet">
     <script type="text/javascript"> window.onerror = function () { return true; }</script>
     <script type="text/javascript" src="./js/lang.js"></script>
     <script type="text/javascript" src="./js/config.js"></script>
