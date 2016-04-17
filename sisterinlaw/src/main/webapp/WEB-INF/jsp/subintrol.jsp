@@ -53,11 +53,11 @@
         </div>
     </div>
     <div class="m">
-        <div class="banner" id="picwrap">
+        <!-- <div class="banner" id="picwrap">
              
             <script type="text/javascript" src="./js/slide.js"></script>
             <script type="text/javascript">new dslide('slide_banner');</script>
-        </div>
+        </div> -->
 
         <div id="qawrap"></div>
          

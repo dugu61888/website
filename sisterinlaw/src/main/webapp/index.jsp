@@ -17,7 +17,7 @@
 html{height:100%}  
 body{height:100%;margin:0px;padding:0px}  
 #container{height:100%}  
-</style>  
+</style> 
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=32xYoZTW90PLoNaxGwnePZyo">
 //v2.0版本的引用方式：src="http://api.map.baidu.com/api?v=2.0&ak=您的密钥"
 //v1.4版本及以前版本的引用方式：src="http://api.map.baidu.com/api?v=1.4&key=32xYoZTW90PLoNaxGwnePZyo&callback=initialize"
@@ -44,10 +44,10 @@ body{height:100%;margin:0px;padding:0px}
 	<div class="m">
 		<div class="head">
 			<div>
-				<h1>广州荟蓉堂生物科技有限公司</h1>
+				<h1 style="font-size:30px">广州荟蓉堂生物科技有限公司</h1>
 				<!-- <h4>简短介绍</h4> -->
 				<!-- <h4 ><a href="subintrol" style="text-decoration:none;">纳豆系列</a></h4> -->
-				产品详情：
+				 <!-- <font size="50px">产品详情：</font> -->
 				<a  href ="subintrol" style="text-decoration:none;"><input  type = "button" class="mybtn" value="纳豆系列"/> </a>
 			</div>
 		</div>
@@ -60,7 +60,7 @@ body{height:100%;margin:0px;padding:0px}
 					style="display: inline;" src="pic/banner.png"
 					id="slide_banner_img" width="960" height="800"></a>
 				<div
-					style="width: 952px; height: 20px; overflow: hidden; z-index: 3; position: relative; margin-top: -20px; padding: 0 4px 0 4px; text-align: right;">
+					style="width:952px; height: 20px; overflow: hidden; z-index: 3; position: relative; margin-top: -20px; padding: 0 4px 0 4px; text-align: right;">
 				</div>
 			</div>
 			
@@ -96,7 +96,7 @@ body{height:100%;margin:0px;padding:0px}
 								<img src="pic/banner2.png"
 									style="height:100px;height:100px;margin: 5px 0 5px 10px; padding: 5px; border: #C0C0C0 1px solid;"
 									align="left" >  
-									<span style="font-size:16px;font-weight:bold">
+									<span style="font-size:20px;font-weight:bold">
 									 <p style="text-indent: 2em;">纳豆起源于中国传统方式发酵的丝酱豆，在中国、日本、韩国已经有1200余年的食用历史。</p> <p style="text-indent: 2em;word-break: normal; ">公元754年，中国唐代高僧鉴真和尚东渡日本弘扬佛法传到日本，因日本寺庙的厨房叫纳所，因此得名纳豆。1987年日本科学家拜见洋行教授首次从230种食品中发现纳豆溶解血栓的作用，纳豆是唯一具有天然溶解作用的食品。</p> 
 									</span>
 									<div class="c_b"></div>
@@ -113,7 +113,7 @@ body{height:100%;margin:0px;padding:0px}
 								<img src="imgs/banner3.jpg"
 									style="height:100px;height:100px;margin: 5px 0 5px 10px; padding: 5px; border: #C0C0C0 1px solid;"
 									align="left" >  
-									<span style="font-size:16px;font-weight:bold;">
+									<span style="font-size:20px;font-weight:bold;">
 			  <p style="text-indent: 2em;">纳豆激酶的药理作用：</p> 
              <p style="text-indent: 2em;">（1）溶血栓、抗血栓作用血栓是血液中的“不速之客”，它可使血液“河流”断流，并引起远端脏器的严重缺血，造成一系列致残性的严重后果，甚至死亡。血栓形成的重要原因之一为机体内纤溶系统功能降低，有专家在2002年对200种具有口服纤溶作用的物质进行了研究，发现NK是当前最具潜力溶纤蛋白酶。随后有人研究了NK在体外对血液流变学的影响，结果显示该酶能够剂量依赖性地使全血低切粘度和红细胞聚集性下降，从而改善病理状态下的微循环和血流状态，防止血栓形成。</p> 
              <p style="text-indent: 2em;">（2）抗动脉粥样硬化作用研究表明纳豆粗提物可降低血脂水平，通过升高高密度脂蛋白胆固醇(HDL-C)、降低低密度脂蛋白胆固醇(LDL-C)调节脂质代谢，具有抗脂质过氧化作用，在预防动脉粥样硬化形成过程中发挥作用。纳豆提取物具有血栓溶解活性，通过抑制血管壁血栓形成而减少内膜增厚。同时，可明显减轻心肌缺血程度，缩小心肌梗死面积。</p> 
@@ -167,7 +167,7 @@ body{height:100%;margin:0px;padding:0px}
 	</div>
 	<div class="m">
 	<div class="main_body">
-<a href="javascript:void(0);" style="text-decoration:none;"> <span style="font-size:16px;">诚聘英才</span> </a>
+<a href="javascript:void(0);" style="text-decoration:none;"> <span style="font-size:20px;">诚聘英才</span> </a>
 &nbsp;&nbsp;&nbsp;
 	 <span style="font-size:16px;">地址:广州市海珠区新港中路456号之二东塔2036房</span> 
 	&nbsp;&nbsp;&nbsp;
