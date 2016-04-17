@@ -7,7 +7,7 @@ function getList() {
                      
                                                         
 
-var  urls='http://localhost:8080/sisterinlaw/';
+var  urls='./';
     $.ajax({
         type: "get",
         url: urls+"getProductJson",

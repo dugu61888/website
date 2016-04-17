@@ -12,7 +12,7 @@
 					content="format=html5;url=http://www.huirongtang.com/index"> -->
 					<link rel="stylesheet" type="text/css" href="./css/common.css">
 						<link rel="stylesheet" type="text/css" href="./css/style.css">
-							
+						<link rel="stylesheet" type="text/css" href="./css/pub.css">			
 							<style type="text/css">  
 html{height:100%}  
 body{height:100%;margin:0px;padding:0px}  
@@ -46,7 +46,9 @@ body{height:100%;margin:0px;padding:0px}
 			<div>
 				<h1>广州荟蓉堂生物科技有限公司</h1>
 				<!-- <h4>简短介绍</h4> -->
-				<h4 ><a href="subintrol" style="text-decoration:none;">纳豆系列</a></h4>
+				<!-- <h4 ><a href="subintrol" style="text-decoration:none;">纳豆系列</a></h4> -->
+				产品详情：
+				<a  href ="subintrol" style="text-decoration:none;"><input  type = "button" class="mybtn" value="纳豆系列"/> </a>
 			</div>
 		</div>
 	</div>
@@ -95,7 +97,7 @@ body{height:100%;margin:0px;padding:0px}
 									style="height:100px;height:100px;margin: 5px 0 5px 10px; padding: 5px; border: #C0C0C0 1px solid;"
 									align="left" >  
 									<span style="font-size:16px;font-weight:bold">
-									 <p style="text-indent: 2em;">纳豆起源于中国传统方式发酵的丝酱豆，在中国、日本、韩国已经有1200余年的食用历史。</p> <p style="text-indent: 2em;word-break: normal; ">公元754年，中国唐代高僧鉴真和尚东渡日本弘扬佛法传到日本，因日本寺庙的厨房叫纳所，因此得名纳豆。1987年日本科学家拜见洋行教授首次从230种食品中发现纳豆溶解血栓的作用。纳豆是唯一具有天然溶解作用的食品。</p> 
+									 <p style="text-indent: 2em;">纳豆起源于中国传统方式发酵的丝酱豆，在中国、日本、韩国已经有1200余年的食用历史。</p> <p style="text-indent: 2em;word-break: normal; ">公元754年，中国唐代高僧鉴真和尚东渡日本弘扬佛法传到日本，因日本寺庙的厨房叫纳所，因此得名纳豆。1987年日本科学家拜见洋行教授首次从230种食品中发现纳豆溶解血栓的作用，纳豆是唯一具有天然溶解作用的食品。</p> 
 									</span>
 									<div class="c_b"></div>
 							</div>
@@ -143,6 +145,8 @@ body{height:100%;margin:0px;padding:0px}
 							    var map = new BMap.Map("container");          // 创建地图实例  
 							    var point = new BMap.Point(113.3371250000, 23.1014720000);  // 创建点坐标  
 							    map.centerAndZoom(point, 15);
+							    var marker = new BMap.Marker(point);
+							    map.addOverlay(marker); 
 							    var myPushpin = new BMap.PushpinTool(map);         // 创建标注工具实例    
 							    myPushpin.addEventListener("markend", function (e) {  // 监听事件，提示标注点坐标信息   
 							        alert("您标注的位置：" +
