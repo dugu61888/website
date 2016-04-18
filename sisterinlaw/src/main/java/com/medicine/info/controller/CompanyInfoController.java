@@ -62,6 +62,13 @@ public class CompanyInfoController {
 		return "/subintrol";
 	}
 	
+	
+	@RequestMapping("/qa")
+	public String qa(HttpServletRequest request,Model model){
+		System.out.println("qa!!!!");
+		return "/qa";
+	}
+	
 	@RequestMapping("/detail")
 	public String listdetail(HttpServletRequest request,Model model){
 		String paraPid=(String) request.getAttribute("pid");

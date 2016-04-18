@@ -24,10 +24,10 @@ BODY
 {
     margin: 0;
     padding: 0;
-    font-size: 12px;
+    font-size: 18px;
     font-family: "microsoft yahei" ,宋体;/* Arial,*/ 
     color: #000;
-    line-height: 18px;
+    line-height: 28px;
     text-decoration: none;
 }
 .c
@@ -606,7 +606,8 @@ BODY
     text-align: left;
 }
 .mybtn {
-    width:86px;
+    width:130px;
+     height:36px;
     text-align:center;
     line-height:100%;
     font-family:Arial,sans-serif;
@@ -615,7 +616,7 @@ BODY
     font-variant:normal;
     font-weight:normal;
     text-decoration:none;
-    margin-top:0px;
+    margin-top:14px;
     margin-right:2px;
     margin-bottom:0px;
     margin-left:2px;

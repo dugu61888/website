@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>公司名称</title>
+	<title>广州荟蓉堂生物科技有限公司</title>
 	<meta name="keywords" content="荟蓉堂">
 		<meta name="generator" content="DESTOON B2B - www.destoon.com">
 			<meta name="template" content="homepage">
@@ -48,7 +48,13 @@ body{height:100%;margin:0px;padding:0px}
 				<!-- <h4>简短介绍</h4> -->
 				<!-- <h4 ><a href="subintrol" style="text-decoration:none;">纳豆系列</a></h4> -->
 				 <!-- <font size="50px">产品详情：</font> -->
-				<a  href ="subintrol" style="text-decoration:none;"><input  type = "button" class="mybtn" value="纳豆系列"/> </a>
+				<span style="font-family:"黑体"； font-weight:bold；">产品详情：</span>
+				<a  href ="subintrol" style="text-decoration:none;">
+				<input  type = "button" class="mybtn" value="福豆来纳豆片"/> </a>
+				
+				<a  href ="qa" style="text-decoration:none;">
+				<input  type = "button" class="mybtn" value="福豆来纳豆片问与答"/> </a>
+				
 			</div>
 		</div>
 	</div>
@@ -57,8 +63,8 @@ body{height:100%;margin:0px;padding:0px}
 			<div id="slide_banner_fix"
 				style="width: 960px; height: 200px; background: #FAFAFA; overflow: hidden;">
 				<a href="javascript:void(0);" target="" id="slide_banner_url"> <img
-					style="display: inline;" src="pic/banner.png"
-					id="slide_banner_img" width="960" height="800"></a>
+					style="display: inline;" src="pic/bean.jpg"
+					id="slide_banner_img" width="960" height="200"></a>
 				<div
 					style="width:952px; height: 20px; overflow: hidden; z-index: 3; position: relative; margin-top: -20px; padding: 0 4px 0 4px; text-align: right;">
 				</div>
@@ -75,7 +81,7 @@ body{height:100%;margin:0px;padding:0px}
 						  <script type="text/javascript" src="js/marquee.js"></script> 
 						<div class="main_head">
 							<div>
-								<strong>公司介绍</strong>
+								<strong style="font-size:22px">公司介绍</strong>
 							</div>
 						</div>
 						<div class="main_body">
@@ -88,13 +94,13 @@ body{height:100%;margin:0px;padding:0px}
 						
 						<div class="main_head">
 							<div>
-								<strong>纳豆介绍</strong>
+								<strong style="font-size:22px">纳豆介绍</strong>
 							</div>
 						</div>
 						<div class="main_body">
 							<div class="lh18 px13 pd10">
 								<img src="pic/banner2.png"
-									style="height:100px;height:100px;margin: 5px 0 5px 10px; padding: 5px; border: #C0C0C0 1px solid;"
+									style="height:140px;height:140px;margin: 5px 0 5px 10px; padding: 5px; border: #C0C0C0 1px solid;"
 									align="left" >  
 									<span style="font-size:20px;font-weight:bold">
 									 <p style="text-indent: 2em;">纳豆起源于中国传统方式发酵的丝酱豆，在中国、日本、韩国已经有1200余年的食用历史。</p> <p style="text-indent: 2em;word-break: normal; ">公元754年，中国唐代高僧鉴真和尚东渡日本弘扬佛法传到日本，因日本寺庙的厨房叫纳所，因此得名纳豆。1987年日本科学家拜见洋行教授首次从230种食品中发现纳豆溶解血栓的作用，纳豆是唯一具有天然溶解作用的食品。</p> 
@@ -105,13 +111,13 @@ body{height:100%;margin:0px;padding:0px}
 						
 						<div class="main_head">
 							<div>
-								<strong>纳豆作用</strong>
+								<strong style="font-size:22px">纳豆激酶作用</strong>
 							</div>
 						</div>
 						<div class="main_body">
 							<div class="lh18 px13 pd10">
-								<img src="imgs/banner3.jpg"
-									style="height:100px;height:100px;margin: 5px 0 5px 10px; padding: 5px; border: #C0C0C0 1px solid;"
+								<img src="imgs/001.jpg"
+									style="height:200px;height:200px;margin: 5px 0 5px 10px; padding: 5px; border: #C0C0C0 1px solid;"
 									align="left" >  
 									<span style="font-size:20px;font-weight:bold;">
 			  <p style="text-indent: 2em;">纳豆激酶的药理作用：</p> 
@@ -133,7 +139,7 @@ body{height:100%;margin:0px;padding:0px}
 						
 							<div class="main_head">
 							<div>
-								<strong>地图</strong>
+								<strong style="font-size:22px">地图</strong>
 							</div>
 						</div>
 						 
