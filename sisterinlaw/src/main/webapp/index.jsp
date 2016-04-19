@@ -48,7 +48,7 @@ body{height:100%;margin:0px;padding:0px}
 				<!-- <h4>简短介绍</h4> -->
 				<!-- <h4 ><a href="subintrol" style="text-decoration:none;">纳豆系列</a></h4> -->
 				 <!-- <font size="50px">产品详情：</font> -->
-				<span style="font-family:"黑体"； font-weight:bold；">产品详情：</span>
+				<span style="font-family:黑体;font-weight:bold;">产品详情：</span>
 				<a  href ="subintrol" style="text-decoration:none;">
 				<input  type = "button" class="mybtn" value="福豆来纳豆片"/> </a>
 				
